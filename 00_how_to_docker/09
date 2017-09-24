@@ -1,0 +1,5 @@
+
+apt-get update && apt-get upgrade
+apt-get install build-essential
+apt-get install gcc
+apt-get install git

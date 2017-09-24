@@ -1,0 +1,2 @@
+
+docker service logs -f $(docker service ps -q -f name=engineering-bay.1 -f desired-state=ready engineering-bay)

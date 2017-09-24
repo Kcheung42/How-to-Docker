@@ -1,0 +1,2 @@
+
+docker run -d --name spawning-pool --restart always -v hatchery:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Kerrigan mysql:latest
